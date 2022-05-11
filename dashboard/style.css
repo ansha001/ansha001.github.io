@@ -1,0 +1,258 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+@import url(https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@600&family=Ubuntu&display=swap);
+
+*{
+    margin:0;
+    padding:0;
+}
+html,body{
+    height:100%;
+}
+body {
+    background : #f2f4f7;
+    font-family: "Roboto", sans-serif;
+    font-size:16px;
+}
+.viewport{
+    padding-left:250px;
+}
+.content{
+    height:100%;
+    background-color:white;
+    position:relative;
+    width:100%;
+    margin-right:0;
+}
+.sidebar{
+    background-color:#597DFC;
+    height:100%;
+    position:fixed;
+    left:250px;
+    width:250px;
+    margin-left:-250px;
+}
+
+/* sidebar section */
+
+.sidebar header {
+    background-color: #1d3796;
+    font-size: 20px;
+    line-height: 50px;
+    text-align: center;
+}
+.sidebar header a {
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    font-weight:bold;
+}
+.profile {
+    width:30%;
+    margin:30px 0 0;
+    border:3px solid white;
+    border-radius:100%;
+}
+.sidebar-menu{
+    margin-top:20px;
+}
+li{
+    border-bottom: 1px solid #90a7f7;
+}
+.sidebar-menu a{
+    font-size:16px;
+    text-decoration:none;
+    color: #F5F7FD;
+    padding-left:50px;
+    line-height:3;
+}
+.sidebar-menu a:hover{
+    color: rgb(194, 192, 192);
+}
+i{
+    margin:12px;
+}
+.take-quiz-button{
+    text-align:center;
+}
+.take-quiz-button button{
+    text-align: center;
+    margin-top:40px;
+    background:none;
+    padding:12px;
+    border:2px solid white;
+}
+.take-quiz-button a{
+    font-family:Roboto;
+    color:white;
+    font-size:16px;
+    font-weight:bold;
+    text-decoration:none;
+}
+
+/* content section */
+.heading{
+    font-family: Ubuntu;
+    padding:50px;
+    padding-left:70px;
+    padding-bottom:30px;
+    color:#14176b;
+    line-height:1.6;
+}
+/* section1  */
+
+.color-box-section{
+    margin:20px;
+    text-align:center;
+    position:relative;
+    display: flex;
+    flex-wrap:wrap;
+    padding-left: 25px;
+}
+.color-box-section .box-content{
+    width:20%;
+    height:110px;
+    text-decoration: none;
+    display:inline-block;
+    background-color:#90a7f7;
+    border:0;
+    margin:0 20px;
+    border-radius:10px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+}
+.content .blue{
+    background-color:#4b94f2a1;
+    color:#0560d8;
+}
+.content .green{
+    background-color:#2dcfb17a;
+    color:#04b998;
+}
+.content .yellow{
+    background-color:#faca4394;
+    color:#e29207;
+}
+.content .red{
+    background-color:#f74d7a82;
+    color:#dd0942;
+}
+.text{
+    font-size:16px;
+    padding:20px 20px 10px 20px;
+    font-weight:bold;
+}
+/* section 2 */
+.progress-chart{
+    position:relative;
+    background-color:#f0f0f3;
+    text-align:center;
+    overflow:hidden;
+}
+.progress-chart .li{
+    height:85%;
+    display:inline-grid;
+    margin:23px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+    border-radius:7px;
+}
+.progress-chart .chart1{
+    width:60%;
+    background-color:#fff;
+    margin-right:0
+}
+.progress-chart .chart2{
+    background-color:#fff;
+    width:29%;
+}
+.chart-content{
+    padding:23px;
+    text-align:center;
+}
+.content header{
+    text-align:left;
+    font-weight: bold;
+    color:#14176b;
+    padding-bottom: 8px;
+    border-bottom:1px solid #7a7ddb;
+}
+.progress-chart .graph{
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 15px;
+    padding-left:6px;
+    text-align:left;
+}
+.bar {
+    background: #CEFC86;
+    width: 0;
+    margin: 5px 0;
+    color: #fff;
+    position:relative;
+    transition: width 2s, background .2s;
+    -webkit-transform: translate3d(0, 0, 0);
+    clear: both;
+}
+.bar:nth-of-type(odd) {
+    background: #FFC0D3;
+}
+.bar .label {
+    font-size:10px;
+    padding: 1em;
+    background: #1d3796;
+    width: 7em;
+    display: inline-block;
+    position: relative;
+    z-index: 2;
+    font-weight: bold;
+}
+.bar .label.second {
+    background: #1d3796;
+}
+.count {
+    position: absolute;
+    right: .25em;
+    top: .75em;
+    padding: .15em;
+    font-size: .75em;
+    font-weight: bold;
+}
+.pie-chart{
+    padding-top:30px;
+    padding-bottom:15px;
+}
+.pie-chart circle {
+    fill: #ddd;
+    stroke: #597DFC;
+    stroke-width: 50;
+    stroke-dasharray: 0 158;
+    transition: stroke-dasharray 3s ease;
+}
+.pie-chart svg {
+    margin: 0 auto;
+    transform: rotate(-90deg);
+    background: #ddd;
+    border-radius: 50%;
+    display: block;
+}
+.pie-chart-text{
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+/* section 3 */
+.content .achievement {
+    height:200px;
+    background-color:#f0f0f3;
+    padding: 20px;
+}
+.achievement .badges{
+    background-color:#fff;
+    width:91%;
+    margin:auto;
+    padding:20px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+    border-radius:7px;
+}
+.badge{
+    width:70px;
+    margin:20px;
+}

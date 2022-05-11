@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>BMSCE Quiz Portal | Login page</title>
+</head>
+
+<body>
+    <div class="form" id="form">
+        <form class="register" name="registerForm">
+            <h1>Register Account</h1>
+            <div class="form-control">
+                <input type="text" class="name" id="name" placeholder="Username" minlength="6"
+                    maxlength="30"><small>Error
+                    message</small>
+            </div>
+            <div class="form-control">
+                <input type="email" class="email" id="email" placeholder="Email address"><small>Error message</small>
+            </div>
+            <div class="form-control">
+                <input type="password" class="password" id="password" placeholder="Password" minlength="6"
+                    autocomplete="new-password"><small>Error message</small>
+            </div>
+            <div class="form-control">
+                <input type="password" class="password2" id="password2" placeholder="Confirm Password"><small>Error
+                    message</small>
+            </div>
+            <button type="submit" name="registerSubmit"><a href="../dashboard/index.html">Sign Up</a></button>
+            <p class="message">Already registered?
+                <a href="#">Sign In</a>
+            </p>
+        </form>
+        <form class="login" name="loginForm">
+            <h1>Account Login</h1>
+            <div class="form-control">
+                <input class="name" id="name" type="text" placeholder="Username" minlength="6"
+                    maxlength="30" required><small>Error
+                    message</small>
+            </div>
+            <div class="form-control">
+                <input class="password" id="password" type="password" placeholder="Password" minlength="6"
+                    autocomplete="current-password" required><small>Error message</small>
+            </div>
+            <button type="submit" name="loginSubmit"><a href="../dashboard/index.html">Log In</a></button>
+            <p class="message">Not registered?
+                <a href="#">Create an account</a>
+            </p>
+        </form>
+    </div>
+    <div class="error"></div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="login.js"></script>
+</body>
+
+</html>

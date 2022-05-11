@@ -1,0 +1,145 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+@import url(https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@600&family=Ubuntu&display=swap);
+
+*{
+    margin:0;
+    padding:0;
+}
+html,body{
+    height:100%;
+}
+body {
+    background : #fff;
+    font-family: "Roboto", sans-serif;
+    font-size:16px;
+}
+.viewport{
+    padding-left:250px;
+}
+.content{
+    height:100%;
+    background-color:white;
+    position:relative;
+    width:100%;
+    margin-right:0;
+    text-align:center;
+}
+.sidebar{
+    background-color:#597DFC;
+    height:100%;
+    position:fixed;
+    left:250px;
+    width:250px;
+    margin-left:-250px;
+}
+
+/* sidebar section */
+
+.sidebar header {
+    background-color: #1d3796;
+    font-size: 20px;
+    line-height: 50px;
+    text-align: center;
+}
+.sidebar header a {
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    font-weight:bold;
+}
+.profile {
+    width:30%;
+    margin:30px 0 0;
+    border:3px solid white;
+    border-radius:100%;
+}
+.sidebar-menu{
+    margin-top:20px;
+}
+li{
+    border-bottom: 1px solid #90a7f7;
+}
+.sidebar-menu a{
+    font-size:16px;
+    text-decoration:none;
+    color: #F5F7FD;
+    padding-left:50px;
+    line-height:3;
+}
+.sidebar-menu a:hover{
+    color: rgb(194, 192, 192);
+}
+i{
+    margin:12px;
+}
+.take-quiz-button{
+    text-align:center;
+}
+.take-quiz-button button{
+    text-align: center;
+    margin-top:40px;
+    background:none;
+    padding:12px;
+    border:2px solid white;
+}
+.take-quiz-button a{
+    font-family:Roboto;
+    color:white;
+    font-size:16px;
+    font-weight:bold;
+    text-decoration:none;
+}
+
+/* content section */
+
+.box{
+    height:700px;
+    display:inline-block;
+    margin:30px;
+    padding:23px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+    border-radius:7px;
+    width:80%;
+    background-color:#fff;
+    text-align:left;
+}
+.content header{
+    text-align:left;
+    font-size: 20px;
+    font-weight: bold;
+    color:#14176b;
+    padding-bottom: 8px;
+    border-bottom:1px solid #7a7ddb;
+}
+.settings{
+    padding: 20px;
+    line-height: 3;
+}
+.button{
+    background-color:#4f69fcf6;
+    color:#fff;
+    width: 150px;
+    height: 30px;
+}
+.container img{
+    width:70%;
+}
+.container .subjects ul{
+    text-align:center;
+}
+.container .subjects li{
+    display:inline-grid;
+    background-color:#8184ef;
+    margin:20px;
+    width:10%;
+    padding:4%;
+    text-align:center;
+    border:1px solid #14176b;
+    border-radius:10px;
+}
+.container .subjects li a{
+    text-decoration:none;
+    color:white;
+    font-weight:bold;
+}
+

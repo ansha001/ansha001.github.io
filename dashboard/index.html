@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css">
+    <title>BMSCE Quiz Portal | Dashboard</title>
+</head>
+
+<body>
+    <div class="viewport">
+        <div class="sidebar">
+            <header>
+                <img src="images/man.png" alt="Profile" class="profile">
+                <a href="">My Profile</a>
+            </header>
+            <ul class="sidebar-menu">
+                <li><a href="../home/index.html"><i class="fi fi-rr-home"></i>Home</a></li>
+                <li><a href="topics.html"><i class="fi fi-rr-search"></i>Explore Topics</a></li>
+                <li><a href="mycourses.html"><i class="fi fi-rr-apps"></i>My Courses</a></li>
+                <li><a href="bookmark.html"><i class="fi fi-rr-bookmark"></i>Bookmarks</a></li>
+                <li><a href="settings.html"><i class="fi fi-rr-settings"></i>Settings</a></li>
+                <li><a href="../login/index.html"><i class="fi fi-rr-sign-out"></i>Log out</a></li>
+            </ul>
+            <div class="take-quiz-button">
+                <button><a href="../quiz/quiz.html">Demo quiz</a></button>
+            </div>
+        </div>
+        <div class="content">
+            <div class="heading">
+                <h1>Hello (Name)</h1>
+                <h3>You are doing great. Keep practicing!</h3>
+            </div>
+            <div class="color-box-section">
+                <div class="blue box-content">
+                    <p class="text">Accuracy</p>
+                    <h1>86%</h1>
+                </div>
+                <div class="green box-content">
+                    <p class="text">Average time per question</p>
+                    <h1>120 s</h1>
+                </div>
+                <div class="yellow box-content">
+                    <p class="text">Quizzes attempted</p>
+                    <h1>42</h1>
+                </div>
+                <div class="red box-content">
+                    <p class="text"> Current Streak</p>
+                    <h1>12</h1>
+                </div>
+            </div>
+            <div class="progress-chart">
+                <div class="chart1 li">
+                    <div class="chart-content">
+                        <header>Your Progress</header>
+                        <div class="graph">
+                            <div class="bar" data-percent="80%"><span class="label second">CSS</span></div>
+                            <div class="bar" data-percent="65%"><span class="label">JavaScript</span></div>
+                            <div class="bar" data-percent="75%"><span class="label second">Python</span></div>
+                            <div class="bar" data-percent="90%"><span class="label">Java</span></div>
+                            <div class="bar" data-percent="40%"><span class="label second">C++</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="chart2 li">
+                    <div class="chart-content">
+                        <header>Latest Quiz performance</header>
+                        <div class="pie-chart">
+                            <svg width="100" height="100" class="chart">
+                                <circle r="25" cx="50" cy="50" class="pie">
+                              </svg>
+                        </div>
+                        <div class="pie-chart-text">
+                            <span>🟦 Correct</span>
+                            <span>⬜ Incorrect</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="achievement">
+                <div class="badges">
+                    <header>Badges earned</header>
+                    <img src="images/badge1.png" alt="" class="badge">
+                    <img src="images/badge2.png" alt="" class="badge">
+                    <img src="images/badge3.png" alt="" class="badge">
+                    <img src="images/badge4.png" alt="" class="badge">
+                    <img src="images/badge5.png" alt="" class="badge">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="dashboard.js"></script>
+</body>
+
+</html>

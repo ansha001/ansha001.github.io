@@ -1,0 +1,231 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+*{
+    margin:0;
+}
+body{
+    background: rgb(243, 244, 245);
+    font-family:"Roboto", sans-serif;
+}
+.nav-bar{
+    position:fixed;
+    background-color:#4365e2;
+    width:100%;
+    align-items:center;
+    justify-content:center;
+    padding:15px;
+    border-bottom:1px solid #f0f0f0;
+    z-index:10;
+}
+.nav-menu{
+    display:flex;
+    list-style:none;
+    width:70%;
+}
+.nav-menu li{
+    text-decoration:none;
+    padding:10px 30px;
+}
+.nav-menu li img{
+    width:80px;
+    position:absolute;
+    top:1px;
+    left:23px;
+}
+.nav-menu li a{
+    text-decoration: none;
+    color:white;
+}
+.nav-menu li a:hover{
+    color:grey;
+}
+.button{
+    position:absolute;
+    right:40px;
+    top:10px;
+}
+.button button{
+    text-transform: uppercase;
+    padding:8px;
+    font-size:12px;
+    width:100px;
+    margin:5px;
+    border-radius:10px;
+    background:white;
+    cursor: pointer;
+}
+.button .login a{
+    color:black;
+}
+.button a:hover{
+    color:grey;
+}
+.section1{
+    height:600px;
+    background-color:#4365e2;
+}
+.section1 .text{
+    display:inline-block;
+    position:relative;
+    left:15%;
+    top:40%;
+    color:white;
+}
+.text button{
+    border: 2px solid white;
+    border-radius: 8px;
+    font-size: 18px;
+    background: none;
+    color: white;
+    cursor: pointer;
+    width:auto;
+    padding: 8px;
+    margin-top:15px;
+    margin-left:0;
+}
+.text button a{
+    color:white;
+    text-decoration: none;
+}
+.section2{
+/*     height:600px;
+ */    background-color:#F1D00A;
+}
+.section2 img{
+    width:40%;
+    position:absolute;
+    right:30px;
+    top:180px;
+    z-index:0;
+}
+.uses-container{
+	padding-bottom:20px;
+}
+.uses-container img{
+    position:relative;
+    width:8%;
+	left:50px;
+	top:0;
+	padding:10px;
+}
+.uses-container .right-image{
+    width:5%;
+    position:relative;
+    top:0;
+}
+.uses li{
+    list-style:none;
+    display:flex;
+    padding:10px;
+}
+.uses-container .text{
+    position:absolute;
+    left:18%;
+    color:#2c0874;
+    font-size: large;
+}
+.text .p-text{
+    padding-top:10px;
+    font-weight: bold;
+    font-size:medium;
+}
+.section3{
+    background-color:#f0f0f0;
+}
+.contact-us{
+    padding:50px;
+}
+.contact-us .row{
+    padding:0px 150px 30px 150px;
+}
+.contact-us-head{
+    padding:10px;
+    text-align:center;
+    color:#032253;
+}
+.contact-us img{
+    max-width:100%;
+}
+.contact-us input[type=text],textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    box-sizing:border-box;
+}
+.contact-us input[type=submit] {
+    background-color: #4365e2;
+    color: white;
+	border-radius:4px;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+.contact-us .column {
+    width: 45%;
+    display:inline-block;
+    align-items:center;
+    padding:20px;
+}
+.testimonial{
+    padding: 1rem;
+	display: grid;
+	grid-template-columns: repeat(10, 80vw);
+	grid-template-rows: 1fr;
+	grid-column-gap: 1rem;
+    grid-row-gap: 1rem;
+	overflow: scroll;
+	height: 50vh;
+    width:auto;
+	scroll-snap-type: both mandatory;
+	scroll-padding: 1rem;
+    margin-bottom:60px;
+}
+.testimonial-container h1{
+    text-align: center;
+	padding:20px;
+    color:#032253;
+}
+.testimonial .content{
+    text-align:center;
+    padding:10%;
+    font-family: Roboto;
+    color: #36343a;
+}
+.active {
+	scroll-snap-type: unset;
+}
+
+.testimonial li {
+	scroll-snap-align: center;
+	display: inline-block;
+	border-radius: 3px;
+}
+footer {
+    padding-top: 2rem;
+    background-color:#4365e2;
+}
+.footer_container {
+    row-gap: 3.5rem;
+    padding:30px 80px;
+    color:white;
+}
+.footer_container .text{
+    padding:10px;
+    padding-bottom:20px;
+}
+.footer_title {
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+.footer_subtitle {
+    font-size: 16px;
+	margin-bottom:10px;
+}
+.footer_copy{
+    padding-top:5px;
+    border-top:1px solid #f0f0f0;
+}
+
+  
